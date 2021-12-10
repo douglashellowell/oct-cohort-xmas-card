@@ -58,7 +58,18 @@ const Card = () => {
     'Verity Gregory',
   ];
 
-  const tutors = ['Doug'];
+  const tutors = [
+    'Doug',
+    'Philippa',
+    'Sam',
+    'Paul',
+    'Maddie',
+    'Eli',
+    'Cameron',
+    'Dave',
+    'David',
+    'everyone else at Northcoders!',
+  ];
 
   const listPeople = (person, index, people) => {
     return index === 0 ? (

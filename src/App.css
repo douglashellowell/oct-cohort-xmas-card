@@ -25,3 +25,8 @@
 .card-interior {
   overflow: scroll;
 }
+
+img {
+  width: 700px;
+  margin: auto;
+}
