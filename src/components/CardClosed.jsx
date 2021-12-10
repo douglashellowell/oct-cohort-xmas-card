@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CardClosed = () => {
-  return <div>Merry xmas</div>;
+  return <div className="card-closed">Merry xmas</div>;
 };
 
 export default CardClosed;

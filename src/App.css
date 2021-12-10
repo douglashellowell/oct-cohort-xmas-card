@@ -22,7 +22,6 @@
   font-weight: 700;
 }
 
-.christmas-emojis {
-  width: min-content;
-  margin: auto;
+.card-interior {
+  overflow: scroll;
 }

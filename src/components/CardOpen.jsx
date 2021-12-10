@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Card = () => {
   const students = [
@@ -70,12 +70,11 @@ const Card = () => {
     );
   };
 
-  const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div class="card-interior">
       <p id="card__to">To...</p>
       {students.map(listPeople)}
-      <p class="christmas-emojis">
+      <p>
         <span aria-label="christmas emojis" aria-hidden>
           🎄🧑‍🎄🎅🤶🎁❄️☃️
         </span>
